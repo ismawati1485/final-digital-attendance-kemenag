@@ -6,7 +6,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ArrowLeft, Lock, Key } from "lucide-react";
 import { toast } from "sonner";
-
 interface AdminLoginProps {
   onBack: () => void;
   onLoginSuccess: () => void;
