@@ -16,6 +16,7 @@ import { texts } from '@/content/texts';
 import { supabase } from '@/lib/supabaseClient';
 import { set } from 'date-fns';
 import { useNavigate } from 'react-router-dom'; 
+import { useAttendanceLogic } from '@/hooks/useAttendanceLogic';
 import { start } from 'repl';
 
 
