@@ -53,6 +53,8 @@ const AttendanceForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAttended, setIsAttended] = useState(false);
   
+  const logic = useAttendanceLogic();
+
 useEffect(() => {
   const fetchMeeting = async () => {
     if (!id) return;
